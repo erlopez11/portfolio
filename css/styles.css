@@ -19,3 +19,34 @@ body {
     border: 10px solid #e8ac66;
     margin: 1.25em;
 }
+
+/* Header and Navigation Bar */
+ header {
+    height: 4.31em;
+    background-color: #273d57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff7ec;
+    padding: 1em;
+ }
+
+ .title {
+    font-size: 2em;
+    font-family: 'Bebas Neue', sans-serif;
+ }
+
+header ul {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #fff7ec;
+}
