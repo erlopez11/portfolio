@@ -136,3 +136,38 @@ header a:visited {
     font-family: 'Kite One', sans-serif;
     margin-top: 3em;
 }
+
+/* Contact Section */
+
+.contact {
+    padding: 3em;
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h2 {
+    color: #273d57;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+}
+
+.contact p {
+    font-size: 1.17em;
+    color: #273d57;
+    margin-bottom: 2.5em;
+}
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact-block a {
+    text-decoration: underline #e8ac66;
+    color: #273d57;
+    font-size: 1em;
+}
