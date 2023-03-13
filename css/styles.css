@@ -90,3 +90,49 @@ header a:visited {
     width: 30em;
     height: 30em;
 }
+
+/* Portfolio Section */
+
+.portfolio {
+    height: 42em;
+    background-color: #273d57;
+    padding: 3em;
+}
+
+.portfolio h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    color: #fff7ec;
+}
+
+.square {
+    background-color: #fff7ec;
+    height: 13.93em;
+    width: 12.56em;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4em;
+    margin-top: 3em;
+}
+
+.portfolio p {
+    color: #fff7ec;
+    font-size: 1.17em;
+    margin-top: 4em;
+}
+
+.button_portfolio {
+    background-color: #e8ac66;
+    width: 11.62em;
+    height: 2.37em;
+    padding: 0.0625em;
+    border-radius: 0.37em;
+    border: none;
+    font-family: 'Kite One', sans-serif;
+    margin-top: 3em;
+}
