@@ -20,6 +20,10 @@ body {
     margin: 1.25em;
 }
 
+.current-menu {
+    text-decoration: underline #fff7ec;
+}
+
 /* Header and Navigation Bar */
  header {
     height: 4.31em;
@@ -170,4 +174,36 @@ header a:visited {
     text-decoration: underline #e8ac66;
     color: #273d57;
     font-size: 1em;
+}
+
+/* Footer */
+
+footer {
+    height: 4.31em;
+    background-color: #273d57;
+    color: #fff7ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer img {
+    width: 5em;
+    height: 5em;
+}
+
+footer ul {
+    font-size: 1em;
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #fff7ec;
 }
