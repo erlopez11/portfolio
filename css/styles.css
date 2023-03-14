@@ -148,7 +148,7 @@ header a:visited {
     padding: 3em;
 }
 
-.contact div {
+.contact-layout {
     display: flex;
     justify-content: space-between;
 }
@@ -211,3 +211,56 @@ footer a:visited {
 }
 
 /* Media Queries */
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 400px) {
+    .title {
+        font-size: 1.25em;
+    }
+
+    header ul,
+    footer ul {
+        font-size: 0.625em;
+    }
+
+    .about h2,
+    .portfolio h2,
+    .contact h2 {
+        font-size: 1.5em;
+    }
+
+    .about p,
+    .portfolio p,
+    .contact p {
+        font-size: 1em;
+        padding-bottom: 1.25em;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about div,
+    .contact {
+        padding: 2em;
+    }
+
+    .button_about,
+    .button_portfolio {
+        font-size: .67em;
+    }
+
+    .portfolio {
+        height: 95em;
+        padding: 2em;
+    }
+
+    .contact-layout {
+        flex-direction: column;
+    }
+
+    .contact p {
+        padding-top: 1.25em;
+    }
+}
