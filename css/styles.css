@@ -252,7 +252,60 @@ footer a:visited {
     }
 
     .portfolio {
-        height: 95em;
+        height: auto;
+        padding: 2em;
+    }
+
+    .contact-layout {
+        flex-direction: column;
+    }
+
+    .contact p {
+        padding-top: 1.25em;
+    }
+}
+
+/* Tablet Style */
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .title {
+        font-size: 1.25em;
+    }
+
+    header ul,
+    footer ul {
+        font-size: .67em;
+    }
+
+    .about h2,
+    .portfolio h2,
+    .contact h2 {
+        font-size: 2em;
+    }
+
+    .about p,
+    .portfolio p,
+    .contact p {
+        font-size: 1.25em;
+    }
+
+    .about img {
+        width: 10em;
+        height: 10em;
+    }
+
+    .about div,
+    .contact {
+        padding: 2em;
+    }
+
+    .button_about,
+    .button_portfolio {
+        font-size: .83em;
+    }
+
+    .portfolio {
+        height: auto;
         padding: 2em;
     }
 
