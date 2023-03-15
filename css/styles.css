@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #fff7ec;
-    padding: 2em;
+    padding: 3em;
  }
 
  .title {
@@ -65,7 +65,7 @@ header a:visited {
 }
 
 .about div {
-    padding-left: 4em;
+    padding-left: 3em;
 }
 
 .about h2 {
@@ -242,7 +242,8 @@ footer a:visited {
     }
 
     .about div,
-    .contact {
+    .contact,
+    header {
         padding: 2em;
     }
 
@@ -295,7 +296,8 @@ footer a:visited {
     }
 
     .about div,
-    .contact {
+    .contact,
+    header {
         padding: 2em;
     }
 
