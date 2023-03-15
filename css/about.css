@@ -34,7 +34,7 @@
 }
 
 .image-resume {
-    display: hidden;
+    display: none;
 }
 
 /* Media Queries */
@@ -55,6 +55,30 @@
     }
 
     .image-resume {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 2em;
+        margin: 0;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .about_info h2 {
+        font-size: 2em;
+    }
+
+    .about_info p {
+        font-size: 1.25em;
+    }
+
+    .resume object {
+        display: none;
+    }
+
+    .image-resume {
+        display: block;
         width: 100%;
         height: 100%;
         padding: 2em;
