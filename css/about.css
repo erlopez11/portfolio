@@ -1,0 +1,17 @@
+/* About Paragraph */
+
+.about_info {
+    color: #273d57;
+    padding: 3em;
+}
+
+.about_info h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5em;
+    margin-bottom: .67em;
+    margin-top: .31em;
+}
+
+.about_info p {
+    font-size: 1.17em;
+}
