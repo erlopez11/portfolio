@@ -1,6 +1,6 @@
 
 .top-banner {
-    padding: 3em 3em .5em 3em;
+    padding: 3em 3em 5em 3em;
 }
 
 .top-banner h2 {
@@ -31,4 +31,30 @@
 .contact-section img {
     width: 20em;
     height: 20em;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .top-banner {
+        padding: 2em 2em .3em 2em;
+    }
+
+    .top-banner h2 {
+        font-size: 1.5em;
+    }
+
+    .contact-section {
+        padding: 0 2em 75% 2em;
+    }
+
+    .contact-section p {
+        font-size: 1em;
+        margin: 1em 0;
+    }
+
+    .contact-section img {
+        display: none;
+    }
 }
