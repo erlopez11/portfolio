@@ -58,3 +58,27 @@
         display: none;
     }
 }
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .top-banner {
+        padding: 2em 2em .3em 2em;
+    }
+
+    .top-banner h2 {
+        font-size: 1.5em;
+    }
+
+    .contact-section {
+        padding: 0 2em 75% 2em;
+    }
+
+    .contact-section p {
+        font-size: 1em;
+        margin: 1em 0;
+    }
+    
+    .contact-section {
+        flex-direction: column;
+    }
+}
