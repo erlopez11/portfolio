@@ -23,3 +23,16 @@
     gap: 4em;
     margin: 5em;
 }
+
+/* Media Queries */
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .top-banner {
+        padding: 2em;
+    }
+
+    .top-banner h2 {
+        font-size: 1.5em;
+    }
+}
