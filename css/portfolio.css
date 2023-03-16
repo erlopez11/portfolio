@@ -8,3 +8,18 @@
     color: #273d57;
     font-family: 'Bebas Neue', sans-serif;
 }
+
+.portfolio_section {
+    height: auto;
+    background-color: #273d57;
+    padding: 1em;
+}
+
+.square_layout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4em;
+    margin: 5em;
+}
