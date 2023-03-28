@@ -24,6 +24,10 @@ body {
     text-decoration: underline #fff7ec;
 }
 
+.current-menu a:hover {
+    text-decoration: underline #e8ac66;
+}
+
 /* Header and Navigation Bar */
  header {
     height: 4.31em;
@@ -54,6 +58,10 @@ header a {
 
 header a:visited {
     color: #fff7ec;
+}
+
+header a:hover {
+    color: #e8ac66;
 }
 
 /* About Section */
@@ -133,6 +141,7 @@ header a:visited {
 
 .button_portfolio {
     background-color: #e8ac66;
+    color: #273d57;
     width: 11.62em;
     height: 2.37em;
     padding: 0.0625em;
